@@ -2,7 +2,7 @@
   "name": "rest-db",
   "version": "0.1.1",
   "description": "RestFull Database",
-  "main": "dist/server.js",
+  "main": "index.js",
   "scripts": {
     "build": "babel src -d dist",
     "test": "mocha --compilers js:babel-core/register test/test.js"
