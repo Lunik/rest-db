@@ -1,6 +1,6 @@
 {
   "name": "rest-db",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "RestFull Database",
   "main": "index.js",
   "scripts": {
