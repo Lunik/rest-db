@@ -1,0 +1,33 @@
+{
+  "name": "rest-db",
+  "version": "0.1.0",
+  "description": "RestFull Database",
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "babel src -d dist",
+    "test": "mocha --compilers js:babel-core/register test/test.js"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.5.2",
+    "chai": "^4.0.2",
+    "eslint": "^3.19.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.3.0",
+    "eslint-plugin-node": "^5.0.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "mocha": "^3.4.2",
+    "request": "^2.81.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "compression": "^1.6.2",
+    "cookie-parser": "^1.4.3",
+    "delogger": "^0.9.5",
+    "express": "^4.15.3",
+    "morgan": "^1.8.2"
+  }
+}
